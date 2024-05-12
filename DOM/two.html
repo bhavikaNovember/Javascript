@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai aur code</title>
+</head>
+
+
+
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+
+
+<script>
+    const parent = document.querySelector('.parent') //class
+     console.log(parent);  //pura
+    // console.log(parent.children); //html collection
+     //console.log(parent.children[1]); //pura
+    //  console.log(parent.children[1].innerHTML); //inner part 
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //       console.log(parent.children[i].innerHTML); //inner part
+        
+    // }
+
+    // parent.children[1].style.color = "orange"
+    //  console.log(parent.firstElementChild); //pura
+    //  console.log(parent.lastElementChild); //pura
+
+    // children accessing parentElement
+
+    // const dayOne = document.querySelector('.day') //first one will get selected
+    //  console.log(dayOne); //pura
+    //  console.log(dayOne.parentElement); //pura
+    //  console.log(dayOne.nextElementSibling); //pura
+
+    // console.log("NODES: ", parent.childNodes); 
+    //shows 11 but has only  4 days because the gap break space everything counts behind the scene
+
+</script>
+
+
+
+</html>
